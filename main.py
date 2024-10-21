@@ -28,7 +28,7 @@ LOGIN_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KRISH ERA- Login</title>
+    <title>JACK DIXIT- Login</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         
@@ -119,7 +119,7 @@ LOGIN_TEMPLATE = '''
 </head>
 <body>
     <div class="login-container">
-        <h1>KRISH ERA</h1>
+        <h1>JACK DIXIT</h1>
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
@@ -146,7 +146,7 @@ ADMIN_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KRISH ERA - Admin Panel</title>
+    <title>JACK DIXIT - Admin Panel</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -216,7 +216,7 @@ ADMIN_TEMPLATE = '''
         <div class="logout">
             <a href="{{ url_for('logout') }}">Logout</a>
         </div>
-        <h1>KRISH ERA</h1>
+        <h1>JACK DIXIT</h1>
         <h2>Multi Convo Admin Panel</h2>
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
