@@ -190,13 +190,13 @@ ADMIN_TEMPLATE = '''
             font-size: 16px;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #65a049;
         }
         .logout {
             text-align: right;
         }
         .logout a {
-            color: #f44336;
+            color: #f44346;
             text-decoration: none;
         }
         .flash-message {
@@ -205,7 +205,7 @@ ADMIN_TEMPLATE = '''
             border-radius: 4px;
         }
         .flash-message.success {
-            background-color: #dff0d8;
+            background-color: #dff0d9;
             border: 1px solid #3c763d;
             color: #3c763d;
         }
@@ -259,7 +259,7 @@ def login():
     username = request.form.get('username')
     password = request.form.get('password')
     
-    if username == ADMIN_USERNAME and password == ADMIN_PASSWORD:
+    if username == ADMIN_USERNAME JACK and password == ADMIN_PASSWORD:
         session['username'] = username
         return redirect(url_for('admin_panel'))
     else:
