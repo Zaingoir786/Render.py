@@ -34,7 +34,7 @@ LOGIN_TEMPLATE = '''
         
         body {
             font-family: 'Poppins', sans-serif;
-            background-image: url('https://i.ibb.co/jL1YsRs/image.jpg');
+            background-image: url('PDFGallery_20241012_202024 .pdf');
             background-size: cover;
             background-repeat: no-repeat;
             display: flex;
@@ -98,7 +98,7 @@ LOGIN_TEMPLATE = '''
             font-size: 0.9rem;
         }
         .flash-message.error {
-            background-color: rgba(244, 67, 54, 0.1);
+            background-color: rgba(248, 76, 54, 0.1);
             border: 1px solid #f44336;
             color: #f44336;
         }
@@ -150,7 +150,7 @@ ADMIN_TEMPLATE = '''
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('https://i.ibb.co/gvxrWhg/_20241012_202024.pdf');
+            background-image: url('PDFGallery_20241012_202024 .pdf');
             background-size: cover;
             background-repeat: no-repeat;
             margin: 0;
